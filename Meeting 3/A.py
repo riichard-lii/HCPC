@@ -40,16 +40,16 @@ for i in record:
         elif rank == 20:
             if stars != 0:
                 stars -= 1
-        elif 16 <= rank < 20:
-                stars -= 1
-                if stars == -1:
-                    stars += 3
-                    rank += 1
-        elif 11 <= rank <= 15:
+        elif 15 <= rank < 20:
+            stars -= 1
+            if stars == -1:
+                stars += 3
+                rank += 1
+        elif 10 <= rank < 15:
                 if stars == -1:
                     stars += 4
                     rank += 1
-        elif 1 <= rank <= 10:
+        elif 1 <= rank < 10:
                 if stars == -1:
                     stars += 5
                     rank += 1
