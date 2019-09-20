@@ -37,7 +37,10 @@ for i in record:
         streak = False
         if rank > 20:
             pass
-        elif 16 <= rank <= 20:
+        elif rank == 20:
+            if stars != 0:
+                stars -= 1
+        elif 16 <= rank < 20:
                 stars -= 1
                 if stars == -1:
                     stars += 3
