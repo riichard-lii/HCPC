@@ -1,10 +1,9 @@
 width = int(input())
 num = int(input())
 sum = 0
-x = []
 for i in range(num):
     c = input().split()
-    x.append((int(c[0]), int(c[1])))
-for j in x:
-    sum += j[0] * j[1]
+    a = int(c[0])
+    b = int(c[1])
+    sum += a * b
 print(int(sum / width))
