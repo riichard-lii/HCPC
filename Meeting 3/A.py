@@ -55,6 +55,7 @@ for i in record:
                     rank += 1
         else:
                 break
+print(stars)
 if rank > 0:
     print(rank)
 else: print("Legend")
